@@ -12,7 +12,7 @@ namespace SistemaEgresados
     public partial class ConsultarDatos : System.Web.UI.Page
     {
         SqlConnection conn = new SqlConnection("Data Source=SQL5045.site4now.net;Initial Catalog=DB_A4CEA1_graduadosmgp;User Id=DB_A4CEA1_graduadosmgp_admin;Password=graduados19;");
-
+         
         protected void Page_Load(object sender, EventArgs e)
         {
             filtroExactoBind();
